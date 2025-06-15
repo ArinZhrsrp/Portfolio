@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        {
+            "source": "/portfolio(/.*)?",
+            "destination": "https://portfolio.vercel.app/:splat"
+        }
+    ]
+}
